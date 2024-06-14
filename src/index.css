@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+ body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.search-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buscar {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.userSearch{
+    width: 450px;
+    font-size: 16px;
+    border: none;
+}
+
+.search-icon {
+width: 20px;
+    color: #666;
+  }
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-body h3 {
+    margin-top: 0;
+  }
+  
+  .card-body h5 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+  .users-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
